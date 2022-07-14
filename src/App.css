@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  width: 600px;
+}
+
+.result-header {
+  font-weight: bold;
+  border-bottom: 2px black;
+}
+
+.result-window {
+  padding: 1rem;
+}
+
+.result {
+  display:grid;
+  grid-template-columns: 20px 100px 200px 300px 100px 100px 100px 300px;
+  margin-bottom: 0.5rem;
+
+  margin-left: 100px;
+}
+
+order_delivered {
+  color:green
+}
